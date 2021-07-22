@@ -1,0 +1,35 @@
+Spring based on Dependency injection-  automatic creation of object and injecting that into required place.
+IOC- inversion of control
+
+main modules provided  by Spring
+Core, beans, context, spEl
+
+steps to create Spring App
+1. create maven project
+2. add spring dependencies
+3 Create bean class POJO
+4. create config file
+    a . add beans and other properties as required.
+5. Create Application Context
+6 retrieve the object (inside mqain class with the help of ApplicationvContext Obj)
+
+Config file
+XML file where we declare the beans and its dependencies
+
+
+Application Context
+1. AnnotationConfigApplicationContext
+2.ClassPathXMLApplicationContext
+3 FileSystemXMLApplicationContext
+
+ways of dependency injection
+1 Setter injection
+2 Constructor injection
+
+
+spEL
+#{<any expression>}
+#{T(class).method(param)}
+
+#{T(class).variable
+#{ new java.lang.String('hello')}
